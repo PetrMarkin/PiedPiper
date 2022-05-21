@@ -1,0 +1,212 @@
+@import url(normalize.min.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site_header {
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.navigation_menu {
+    width: 100%;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    list-style: none;
+    margin-right: 10%;
+  }
+  .nav li{
+     float: right;
+     margin-right: 0px;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     margin-top: 7px;
+  }
+  
+  .nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav li a:hover {
+     color: #fff;
+  }
+
+  .jumbotron {
+      background-image: url(images/image.png);
+      margin-top: 0px;
+  }
+  
+  .jum {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    color:#fff;
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  .problem {
+      margin: auto;
+      padding-left: 55px;
+      padding-right: 55px;
+      width: 100%;
+      max-width: 1219px;
+  }
+
+  #TheProblem {
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+    color: #007765;
+  }
+
+.textproblem {
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    vertical-align: top;
+    line-height: 37.5px;
+    line-height: 100%;
+    padding-bottom: 92px;
+}
+
+.network {
+    background-image: url(images/piedfon.png);
+    margin-top: 0px;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.textnetwork {
+    text-align: center;
+    vertical-align: top;
+    font-style: italic;
+    font-size: 48px;
+    color:#fff;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 100%;
+}
+
+#PiedPiperCoin {
+    color: #007765;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.logo_container {
+    float: left;
+    padding-right: 48px;
+}
+
+.ppc_container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 80px;
+}
+
+.ppc_main_container {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.team {
+    background-color: #EEEEEE;
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 50px;
+}
+
+#TheTeam {
+    color: #007765;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 75px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.team_container_main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 84px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.info {
+    text-align: center;
+    vertical-align: top;
+    font-style: bold;
+    font-size: 24px;
+    color:#007765;
+    line-height: 28.13px;
+    line-height: 100%;
+}
+
+.position {
+    text-align: center;
+    vertical-align: top;
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    line-height: 21.09px;
+    line-height: 100%;
+}
+
+.footer {
+    background-color:#333333;
+}
+
+.footer_text {
+    text-align: center;
+    vertical-align: top;
+    font-style: italic;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 21.09px;
+    line-height: 100%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 62px;
+}
